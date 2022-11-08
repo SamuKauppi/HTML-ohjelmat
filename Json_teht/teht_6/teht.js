@@ -1,11 +1,17 @@
 'use strict';
 
-let num = prompt('Enter a year');
+const ans = confirm('Should I calculate the square root?');
 
-
-if ((0 == num % 4) && (0 != num % 100) || (0 == num % 400)) {
-    document.querySelector('#target').innerHTML = num + ' is a leap year';
+if(ans){
+    let num = prompt('then give me a number dude!');
+    if( num > 0){
+        let sqrtnum = Math.sqrt(num);
+        document.querySelector('#target').innerHTML = 'The square root is ' + sqrtnum;
+    }
+    else{
+        document.querySelector('#target').innerHTML = 'The square root of a negative number is not defined';
+    }
 }
-else {
-    document.querySelector('#target').innerHTML = num + ' is not a leap year';
+else{
+    document.querySelector('#target').innerHTML = 'The square root is not calculated';
 }

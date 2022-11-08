@@ -1,19 +1,19 @@
 'use strict';
 let namn = prompt('give your name');
-const num = Math.floor((Math.random() * 5) + 1);
+const num = Math.floor((Math.random() * 4) + 1);
 let hus = '';
 
 if(num == 1){
-    hus = 'gryffindor';
+    hus = 'Daredevil';
 }
 else if (num == 2){
-    hus = 'slytherin';
+    hus = 'Slytherin';
 }
 else if (num == 3){
     hus = 'Ravenclaw';
 }
 else{
-    hus = 'hufflepuff'
+    hus = 'Hufflepuff'
 }
 
 
