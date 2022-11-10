@@ -8,7 +8,6 @@ if (num > 1) {
             isprime = false;
             break;
         }
-        console.log(i)
     }
 }
 else{

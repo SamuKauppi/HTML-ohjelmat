@@ -13,7 +13,7 @@ else if (num == 3){
     hus = 'Ravenclaw';
 }
 else{
-    hus = 'Hufflepuff'
+    hus = 'Hufflepuff';
 }
 
 
