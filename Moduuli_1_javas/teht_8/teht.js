@@ -1,8 +1,8 @@
 'use strict';
 
 function addtolist(num){
-    var ul = document.getElementById('list');
-    var li = document.createElement('li');
+    let ul = document.getElementById('list');
+    let li = document.createElement('li');
     li.appendChild(document.createTextNode(num));
     ul.appendChild(li);
 }
