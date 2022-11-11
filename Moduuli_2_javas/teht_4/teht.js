@@ -10,7 +10,7 @@ while(true){
     nums.push(num);
 }
 
-nums.sort(function(a, b){return a-b});
+nums.sort(function(a, b){return b-a});
 
 nums.forEach(element =>{
     console.log(element);
