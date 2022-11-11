@@ -1,10 +1,5 @@
 'use strict';
 
-
-function rroll(sides){
-    return Math.floor(Math.random() * sides + 1);
-}
-
 function addtolist(num, listname){
     let ul = document.getElementById(listname);
     let li = document.createElement('li');
@@ -12,10 +7,10 @@ function addtolist(num, listname){
     ul.appendChild(li);
 }
 
-let die = 0;
-const maxnum = prompt('give me the max num, dude');
 
-while (die != maxnum){
-    die = rroll(maxnum);
-    addtolist(die, 'list');
-}
+addtolist('First item', 'target');
+addtolist('Second item', 'target');
+addtolist('Third item', 'target');
+
+const second = document.getElementsByTagName('li')[1];
+second.classList.add('my-item');
