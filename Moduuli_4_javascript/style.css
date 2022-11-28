@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(content/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+#target {
+    background-image: url('content/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    font-family: Raleway;
+    padding: 15px;
+}
+
+.singleEntry {
+    background-color: lightgray;
+    width: 20vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    background-image: url('content/singlebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#divtarget {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 35px;
+    padding: 25px 25px;
+}
+
+#source {
+    display: flex;
+    justify-content: center;
+}
+
+#textbox {
+    width: 25vw;
+    height: 4vh;
+
+}
+
+input[name=submiting] {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+input[name=submiting]:hover {
+    background-color: rgb(0, 0, 150);
+    color: white;
+}
+
+.link {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(183, 205, 255);
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.link:hover {
+    background-color: rgb(0, 0, 211);
+    color: white;
+    cursor: pointer;
+}
+
+.iframeclass {
+    width: 80vw;
+    height: 80vh;
+}
+dialog{
+    background-color: gray;
+}
+.xbutton {
+    float: right;
+    background-color: rgb(255, 130, 130);
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.xbutton:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.textdiv {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 12px;
+    padding: 5px;
+}
