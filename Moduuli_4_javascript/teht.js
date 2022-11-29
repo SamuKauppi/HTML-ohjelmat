@@ -19,9 +19,9 @@ function create_entry(thingy) {
         imgobj.src = thingy.image.medium;
     }
     else {
-        imgobj.src = 'https://via.placeholder.com/100x200?text=text+here';
+        imgobj.src = 'https://via.placeholder.com/100x200?text=no+image';
     }
-    imgobj.alt = 'https://via.placeholder.com/100x200?text=text+here';
+    imgobj.alt = 'https://via.placeholder.com/100x200?text=no+image';
     searchDiv.appendChild(imgobj);
 
     let urlobj = document.createElement('a');
